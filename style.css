@@ -1,0 +1,116 @@
+#title{
+  background-color:#ff4c68;
+  padding:2rem 20rem;
+}
+.navbar-brand{
+  font-size:2.5rem;
+}
+h1{
+  line-height:1.5;
+  color:#fff;
+}
+.images{
+  width:60%;
+  transform: rotate(25deg);
+  background-position: center;
+  position:absolute;
+  right:30px;
+}
+.container-fluid{
+  padding:3% 5% 7%;
+}
+.button{
+  margin:5% 5% 5% 0;
+}
+#features{
+  padding:7rem;
+  text-align: center;
+  background-color:#fff;
+  position:relative;
+  z-index: 1;
+}
+.icon{
+  color:pink;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+#features p{
+  color:grey;
+}
+#testimonials{
+  text-align: center;
+  color:#fff;
+  background-color:#ff4c68;
+
+  line-height:2;
+}
+#testimonial-carousel{
+  padding:7% 20%;
+}
+.dog-img{
+  width:20%;
+  border-radius: 100%;
+}
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+
+}
+.press-logo{
+  width:15%;
+  padding-left:2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.lady-img{
+  width:20%;
+  border-radius:100%;
+}
+#pricing{
+  text-align: center;
+  padding:100px;
+  line-height:1.5;
+}
+#pricing p{
+  color:grey;
+}
+#pricing h2{
+  font-size:2.5rem;
+}
+.card{
+  padding:0;
+}
+.b{
+  padding-top:10px;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:7.5rem 20rem;
+  line-height:2;
+}
+#cta h3{
+  font-size:2.5rem;
+  color:#fff;
+
+}
+#footer{
+  text-align: center;
+  font-size:1rem;
+  color:grey;
+  padding:20px 20px;
+}
+.button-cta{
+  margin:5% 3% 5% 0;
+}
+@media(max-width:991px){
+  #title{
+    text-align: center;
+  }
+  .images{
+    transform: rotate(0);
+    position:static;
+  }
+}
